@@ -16,9 +16,12 @@ body, html {
     text-align: center;
 }
 
+h1, h2, h3, h6 {
+    font-weight: 500;
+    color: #111235;
+}
 
 h2 {
-    font-weight: 500;
     font-size: 48px;
     color: rgb(12, 16, 12);
     font-weight: 50;
@@ -27,7 +30,6 @@ h2 {
 }
 
 h3 {
-    font-weight: 500;
     font-size: 32px;
     color: rgb(12, 16, 12);
     font-weight: 50;
@@ -36,7 +38,6 @@ h3 {
 
 h6 {
     font-size: 18px;
-    font-weight: 500;
     margin: 0 0 40px;
     font-family: Ubuntu;
 
@@ -84,6 +85,7 @@ h6 {
     font-family: Ubuntu;
     font-size: 1rem;
     font-weight: 600;
+    border-style: none;
 }
 
 .btn-primary {
@@ -123,6 +125,33 @@ h6 {
     display: block;
 }
 
+h5 {
+    color: #111235;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Ubuntu;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.panel {
+    border-radius: 30px;
+    padding: 60px 40px;
+    margin-bottom: 20px;
+}
+
+.panel > h5 {
+    width: 85%;
+}
+
+.panel-blue {
+    background: #E4F0FF;
+}
+
+.panel-purple {
+    background: rgb(114, 122, 239, 0.1);
+}
+
 /*  single styles classes */
 
 .bp-100 {
@@ -131,4 +160,8 @@ h6 {
 
 .tp-80 {
     padding-top: 80px;
+}
+
+.bm-40 {
+    margin-bottom: 40px;
 }
