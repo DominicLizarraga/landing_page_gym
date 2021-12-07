@@ -6,7 +6,7 @@
 body, html {
     min-width: 100%;
     min-height: 100vh;
-    background-size: cover;
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.68%);
 }
 
 .content-section-container {
@@ -152,6 +152,47 @@ h5 {
     background: rgb(114, 122, 239, 0.1);
 }
 
+ul li {
+    list-style-type: none;
+    padding: 20px 0;
+    font-family: Ubuntu;
+
+}
+
+ul {
+    padding-left: 0;
+    padding: 30px 0;
+}
+
+input[type="text"] {
+    width: 55%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #111235;
+    font-weight: 400;
+    background: url("https://assets.codepen.io/6060109/icon-send.png") white 95% 50% no-repeat;
+}
+
+.s-media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 176px;
+    margin: 20px auto;
+    width: 45%;
+}
+
+
+.s-media img {
+    width: 17.07px;
+    background-color: #E4EFFE;
+    padding: 8px;
+    border-radius: 100%;
+
+}
+
+
 /*  single styles classes */
 
 .bp-100 {
@@ -164,4 +205,12 @@ h5 {
 
 .bm-40 {
     margin-bottom: 40px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.bm-15 {
+    margin-bottom: 15px;
 }
