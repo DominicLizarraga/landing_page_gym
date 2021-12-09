@@ -8,6 +8,10 @@ body, html {
     min-height: 100vh;
     background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.68%);
 }
+.constrain {
+    max-width: 490px;
+    margin: auto;
+}
 
 .content-section-container {
     margin: 40px 15px;
@@ -121,8 +125,8 @@ h6 {
     margin: auto 0;
 }
 
-.gradient-blue-bg > img {
-    display: block;
+.trainer {
+    margin-bottom: -4px;
 }
 
 h5 {
@@ -189,7 +193,10 @@ input[type="text"] {
     background-color: #E4EFFE;
     padding: 8px;
     border-radius: 100%;
+}
 
+.text-hero{
+    font-family: Ubuntu;
 }
 
 
@@ -213,4 +220,76 @@ input[type="text"] {
 
 .bm-15 {
     margin-bottom: 15px;
+}
+
+.top-menu {
+    display: none;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .constrain {
+        max-width: 1500px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        box-shadow: none;
+    }
+
+    .outer-container {
+        margin: 0 10%;
+    }
+
+    .top-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        align-items: center;
+    }
+
+    .text-hero{
+        font-family: Ubuntu;
+    }
+
+    .hero-section {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .hero-section img {
+        width: 50%;
+    }
+
+    .text-hero {
+        width: 50%;
+        text-align: left;
+    }
+
+    .text-hero .btn {
+        margin: 35px 0;
+    }
+
+    .left-to-right {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    .workout-img-2 {
+        width: 45%;
+    }
+
+    .blue-bg {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        border-radius: 50px;
+        padding: 0 20px;
+    }
+
 }
