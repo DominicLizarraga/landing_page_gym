@@ -9,7 +9,7 @@ body, html {
     background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.68%);
 }
 .constrain {
-    max-width: 490px;
+    max-width: 425px;
     margin: auto;
 }
 
@@ -199,6 +199,14 @@ input[type="text"] {
     font-family: Ubuntu;
 }
 
+.trainer {
+    text-align: center;
+}
+
+.desktop-only {
+    display: none;
+}
+
 
 /*  single styles classes */
 
@@ -271,8 +279,18 @@ input[type="text"] {
         text-align: left;
     }
 
-    .text-hero .btn {
+    .btn {
         margin: 35px 0;
+    }
+
+    .simple-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .simple-flex > * {
+        margin: 0;
     }
 
     .left-to-right {
@@ -290,6 +308,92 @@ input[type="text"] {
         align-items: center;
         border-radius: 50px;
         padding: 0 20px;
+    }
+
+    .gradient-blue-bg {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .trainer-text {
+        text-align: left;
+        width: 30%;
+        margin: 40px;
+    }
+
+    .trainer {
+        margin: 0;
+        width: 450px;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .panels-img-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .panels-img-container img {
+        width: 20%;
+    }
+    
+    .panels {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .panel {
+        width: 49%;
+        box-sizing: border-box;
+        margin: 2px;
+    }
+
+    footer.content-section-container {
+        display: flex;
+        padding: 0;
+
+    }
+    .s-media {
+        display: none;
+        padding: 0;
+    }
+    footer h3 {
+        width: 30%;
+        text-align: left;
+    }
+    footer ul {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        padding-right: 10%;
+        padding: 0;
+    }
+    footer li {
+        padding-top: 15px;
+    }
+
+    .stay-up-to-date {
+        padding-top: 15px;
+        width: 30%;
+        text-align: left;
+    }
+
+    .stay-up-to-date input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
     }
 
 }
